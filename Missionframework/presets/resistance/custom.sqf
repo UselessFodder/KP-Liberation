@@ -1,6 +1,6 @@
 /*
     Needed Mods:
-    - None
+    - CUP Units
 
     Optional Mods:
     - None
