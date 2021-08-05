@@ -93,7 +93,7 @@ light_vehicles = [
     ["I_Quadbike_01_F",50,0,25],                                        //* Quad Bike
     ["CUP_I_MATV_ION",75,0,50],                                     // Unarmed Transport
     ["CUP_I_RG31_M2_W_ION",75,40,50],                           //*  M2
-    [//"CUP_I_RG31_Mk19_W_ION",150,50,50],                       //* Mk 19
+    ["CUP_I_RG31_Mk19_W_ION",150,50,50],                       //* Mk 19
     ["I_Truck_02_medical_F",120,0,60],                              //* Medical Evacuation truck
     ["CUP_I_Van_Transport_ION",100,0,25],                                //* Transport Van
     ["CUP_I_SUV_ION",100,0,25],                                //* SUV
@@ -145,7 +145,7 @@ static_vehicles = [
     //["B_GMG_01_A_F",45,60,0],                                           // Mk32 GMG 20mm (Autonomous)
     ["B_static_AT_F",50,100,0],                                         // Static Titan Launcher (AT)
     ["B_static_AA_F",50,100,0],                                         // Static Titan Launcher (AA)
-    ["B_Mortar_01_F",80,150,0],                                         // Mk6 Mortar
+    ["B_Mortar_01_F",80,150,0]                                         // Mk6 Mortar
     //["RHS_M119_WD",100,200,0],                                          // M119A2
     //["B_SAM_System_03_F",250,500,0]                                     // MIM-145 Defender
 ];
@@ -359,7 +359,7 @@ elite_vehicles = [
 	"CUP_I_BTR80A_ION",													// BTR-80 AA
 	"I_Plane_Fighter_04_F",                                             // A-149 Gryphon
     "B_T_VTOL_01_armed_F",                                              // V-44 X Blackfish (Armed)
-    "CUP_B_Challenger2_NATO"                                            // Challenger tank
+    "CUP_B_Challenger2_NATO",                                            // Challenger tank
     "CUP_I_SUV_Armored_ION",                                            // Armored SUV
     "CUP_I_Mi24_ION",                                                   // Superhind
     "CUP_I_Mi24_D_Dynamic_ION",                                         // Mi-24D
