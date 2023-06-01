@@ -83,5 +83,22 @@ switch (_notiftype) do {
 		//return intel points used
 		resources_intel = resources_intel + ( GRLIB_secondary_missions_costs select 3);
 	};
+	// rescue_civ mission
+    case 12: {
+        {["lib_intel_prisoner"] call BIS_fnc_showNotification;};
+		//{["lib_intel_rescue_civ"] call BIS_fnc_showNotification;};
+    };	
+   case 13: {
+        ["lib_intel_sar_failed"] call BIS_fnc_showNotification;
+        deleteMarkerLocal "secondarymarker";
+        deleteMarkerLocal "secondarymarkerzone";
+        secondary_objective_position_marker = [];
+    };
+    case 14: {
+        ["lib_intel_sar_succeeded"] call BIS_fnc_showNotification;
+        deleteMarkerLocal "secondarymarker";
+        deleteMarkerLocal "secondarymarkerzone";
+        secondary_objective_position_marker = [];
+    };
     default {[format ["remote_call_intel.sqf -> no valid value for _notiftype: %1", _notiftype], "ERROR"] remoteExecCall ["KPLIB_fnc_log", 2];};
 };
