@@ -3767,6 +3767,48 @@
             <Korean>구출작전 성공!</Korean>
             <Czech>Záchranná mise byla úspěšná</Czech>
         </Key>
+        <Key ID="STR_NOTIFICATION_RESCUE_STARTED">
+            <Original>Civilian hostages located near %1.</Original>
+            <French>Otages civils situés à proximité %1.</French>
+            <German>In der Nähe befinden sich zivile Geiseln %1</German>
+            <Spanish>Rehenes civiles ubicados cerca de %1</Spanish>
+            <Russian>Гражданские заложники, находящиеся вблизи %1.</Russian>
+            <Italian>ostaggi civili situati vicino di %1.</Italian>
+            <Chinesesimp>平民人质位于%1附近</Chinesesimp>
+            <Chinese>平民人質位於 %1 附近</Chinese>
+            <Turkish>Yakınlarda bulunan sivil rehineler %1.</Turkish>
+            <Portuguese>Reféns civis localizados perto de %1.</Portuguese>
+            <Korean>%1 근처에 민간인 인질.</Korean>
+            <Czech>Civilní rukojmí poblíž %1</Czech>
+        </Key>
+        <Key ID="STR_NOTIFICATION_RESCUE_FAILED">
+            <Original>Rescue mission failed, both civilians were killed.</Original>
+            <French>La mission de sauvetage a échoué, les deux civils ont été tués.</French>
+            <German>Die Rettungsmission scheiterte, beide Zivilisten wurden getötet.</German>
+            <Spanish>La misión de rescate falló, ambos civiles murieron.</Spanish>
+            <Russian>Спасательная операция провалилась, оба мирных жителя погибли.</Russian>
+            <Italian>Missione di salvataggio fallita, entrambi i civili sono stati uccisi.</Italian>
+            <Chinesesimp>救援任务失败，两名平民遇难。</Chinesesimp>
+            <Chinese>救援任務失敗，兩名平民遇難。</Chinese>
+            <Turkish>Kurtarma görevi başarısız oldu, her iki sivil de öldürüldü.</Turkish>
+            <Portuguese>A missão de resgate falhou, ambos os civis foram mortos.</Portuguese>
+            <Korean>구조 임무 실패, 두 민간인 사망.</Korean>
+            <Czech>Záchranná mise se nezdařila, oba civilisté byli zabiti.</Czech>
+        </Key>
+        <Key ID="STR_NOTIFICATION_RESCUE_SUCCESS">
+            <Original>Rescue mission succeeded.</Original>
+            <French>Mission de sauvetage réussie.</French>
+            <German>Rettungsmission erfolgreich.</German>
+            <Spanish>Misión de rescate exitosa.</Spanish>
+            <Russian>Спасательная миссия удалась.</Russian>
+            <Italian>Missione di salvataggio riuscita.</Italian>
+            <Chinesesimp>救援任务成功。</Chinesesimp>
+            <Chinese>救援任務成功。</Chinese>
+            <Turkish>Kurtarma görevi başarılı oldu.</Turkish>
+            <Portuguese>Missão de resgate bem-sucedida.</Portuguese>
+            <Korean>구조 임무 성공!</Korean>
+            <Czech>Záchranná mise byla úspěšná.</Czech>
+        </Key>		
         <Key ID="STR_PARAMS_MAPMARKERS">
             <Original>Player mapmarkers activation through extended options</Original>
             <German>Kartenmarkierungen von Spielern über Erweiterte Optionen aktivierbar</German>
@@ -7358,8 +7400,7 @@
             <German>KP Spielermenü v1.0.2\nvon Wyqer</German>
             <Spanish>Menú de Jugador KP v1.0.2\npor Wyqer</Spanish>
             <Czech>KP Player Menu v1.0.2\nby Wyqer</Czech>
-        </Key>
-		
+        </Key>		
 		<Key ID="STR_SECONDARY_MISSION3">
             <Original>Humanitarian Aid</Original>
             <French>Recherche et Sauvetage</French>
@@ -7388,5 +7429,33 @@
             <Korean>&lt;t size='1.3' color='#ffa000'&gt;수색 및 구출&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;적군 후방지역에서 정찰임무를 수행하던 아군 정찰기와 교신이 끊어졌습니다. 현 상황으로 판단할때 적군에게 격추당한 것 같습니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;아군의 임무는 마지막 교신 위치를 중심으로 아군 정찰기의 흔적을 찾는 것입니다. 적군이 먼저 발견하기전에 아군 정찰기의 흔적을 찾아 승무원 구출 및 다른 정보들을 획득, 복귀해야 합니다. 교전이 벌어질 수 있습니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;소요되는 정보 점수: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;보상: 정보 점수가 20점 추가됩니다. 또한 구출한 인원 1명당 정보 점수가 10점 추가됩니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Korean>
             <Czech>&lt;t size='1.3' color='#ffa000'&gt;ZÁCHRANNÁ MISE&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Ztratili jsme kontakt s průzkumným vrtulníkem za nepřátelskými liniemi. Věříme že ji sestřelily nepřátelské jednotky.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Vrtulník mohl havarovat kdekoliv ve velké vzdálenosti od místa kde jsme s ní ztratily kontakt. Cílem mise je najít a zachránit přeživší posádku. Nepřátelské jednotky tam mohou být jako první, proto musíme jednat rychle, opatrně a být připraveni k boji.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cena: 8&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Odměna: 20 zpravodajských bodů (10 za každého člena posádky).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Czech>
         </Key>
+		<Key ID="STR_SECONDARY_MISSION4">
+            <Original>Civilian Hostage Rescue</Original>
+            <French>Sauvetage d'otages civils</French>
+            <German>Zivile Geiselbefreiung</German>
+            <Spanish>Rescate de rehenes civiles</Spanish>
+            <Russian>Спасение гражданских заложников</Russian>
+            <Italian>Salvataggio di ostaggi civili</Italian>
+            <Chinesesimp>平民人质解救</Chinesesimp>
+            <Chinese>平民人質解救</Chinese>
+            <Turkish>Sivil Rehine Kurtarma</Turkish>
+            <Portuguese>Resgate de Reféns Civis</Portuguese>
+            <Korean>민간 인질 구출</Korean>
+            <Czech>Záchrana civilních rukojmích</Czech>
+        </Key>
+        <Key ID="STR_SECONDARY_BRIEFING4">
+            <Original>&lt;t size='1.3' color='#ffa000'&gt;CIVILIAN HOSTAGE RESCUE&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;We have received intelligence that the enemy is holding two civilians hostage. We have been tasked to find and rescue them back to the FOB.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;This will help win hearts and minds in the local region and lead to future tips from the populace.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: 20% increase in Civil Reputation.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Original>
+            <French>&lt;t size='1.3' color='#ffa000'&gt;SAUVETAGE D'OTAGES CIVILS&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Nous avons reçu des informations selon lesquelles l'ennemi détient deux civils en otage. Nous avons été chargés de les retrouver et de les ramener à la FOB.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Cela aidera à gagner les cœurs et les esprits dans la région locale et conduira à de futurs conseils de la part de la population.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cout: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Récompense: 10 points d'intel (5 pour chaque équipage vivant).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</French>
+            <German>&lt;t size='1.3' color='#ffa000'&gt;ZIVILE GEISELBEFREIUNG&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Wir haben Informationen erhalten, dass der Feind zwei Zivilisten als Geiseln hält. Wir wurden beauftragt, sie zu finden und zurück zum FOB zu retten.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Dies wird dazu beitragen, die Herzen und Köpfe der Region zu gewinnen und zu zukünftigen Tipps der Bevölkerung zu führen.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Reward: 10 intel points (5 for each crew alive).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</German>
+            <Spanish>&lt;t size='1.3' color='#ffa000'&gt;RESCATE DE REHENES CIVILES&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Hemos recibido información de inteligencia de que el enemigo tiene como rehenes a dos civiles. Se nos ha encomendado encontrarlos y rescatarlos de vuelta a la FOB.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Esto ayudará a ganar corazones y mentes en la región local y conducirá a futuros consejos de la población.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Coste: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: 10 puntos de intel (5 por cada tripulante).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Spanish>
+            <Russian>&lt;t size='1.3' color='#ffa000'&gt;Спасение гражданских заложников&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Мы получили разведданные, что противник держит в заложниках двух мирных жителей. Нам было поручено найти и спасти их обратно на ПОБ.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Это поможет завоевать сердца и умы в местном регионе и приведет к будущим советам от населения.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Стоимость: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Награда: 10 разведданных (5 за каждого живого экипажа вертолета)&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Russian>
+            <Italian>&lt;t size='1.3' color='#ffa000'&gt;SALVATAGGIO DI OSTAGGI CIVILI&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Abbiamo ricevuto informazioni secondo cui il nemico tiene in ostaggio due civili. Siamo stati incaricati di trovarli e riportarli al FOB.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Ciò contribuirà a conquistare i cuori e le menti nella regione locale e porterà a suggerimenti futuri dalla popolazione.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;10 Punti Intel (5 per ogni membro in vita).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Italian>
+            <Chinesesimp>&lt;t size='1.3' color='#ffa000'&gt;平民人质解救&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;我们收到情报说敌人扣押了两名平民作为人质。我们的任务是找到并将他们解救回 FOB。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;这将有助于在当地赢得民心，并从民众那里获得未来的建议。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;花费：10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;奖励：10情报点（每名幸存组员价值5点）。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Chinesesimp>
+            <Chinese>&lt;t size='1.3' color='#ffa000'&gt;平民人質解救&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;我們收到情報說敵人扣押了兩名平民作為人質。我們的任務是找到並將他們營救回 FOB。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;這將有助於在當地贏得民心，並從民眾那裡獲得未來的建議。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;花費：10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;獎勵：10 點情報點（每位倖存的機組員價值 5 點情報點）。&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Chinese>
+            <Turkish>&lt;t size='1.3' color='#ffa000'&gt;SIVIL REHINE KURTARMA&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Düşmanın iki sivili rehin aldığına dair istihbarat aldık. Onları bulup FOB'a geri götürmekle görevlendirildik.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Bu, yerel bölgede kalpleri ve akılları kazanmaya yardımcı olacak ve halktan gelecek ipuçlarına yol açacaktır.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Ödül: 10 istihbarat puanı (Her yaşayan kişi için 5).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Turkish>
+            <Portuguese>&lt;t size='1.3' color='#ffa000'&gt;RESGATE DE REFENS CIVIS&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Recebemos informações de que o inimigo mantém dois civis como reféns. Fomos encarregados de encontrá-los e resgatá-los de volta ao FOB.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Isso ajudará a conquistar corações e mentes na região local e levar a dicas futuras da população.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cost: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Recompensa: 10 pontos de inteligência (5 para cada membro vivo da tripulação).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Portuguese>
+            <Korean>&lt;t size='1.3' color='#ffa000'&gt;민간 인질 구출&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;적군이 민간인 2명을 인질로 잡고 있다는 정보를 입수했습니다. 우리는 그들을 찾아 FOB로 다시 구출하라는 임무를 받았습니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;이것은 지역의 마음과 생각을 얻는 데 도움이 될 것이며 대중의 미래 팁으로 이어질 것입니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;소요되는 정보 점수: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;보상: 정보 점수가 10점 추가됩니다. 또한 구출한 인원 1명당 정보 점수가 5점 추가됩니다.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Korean>
+            <Czech>&lt;t size='1.3' color='#ffa000'&gt;ZÁCHRANNÁ CIVILNICH RUKOJMICH&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;Dostali jsme informace, že nepřítel drží dva civilisty jako rukojmí. Dostali jsme za úkol je najít a zachránit zpět do FOB.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1'&gt;To pomůže získat srdce a mysli v místním regionu a vést k budoucím tipům od obyvatel.&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='1.15' color='#00a0ff'&gt;Cena: 10&lt;img image='\A3\Ui_f\data\GUI\Cfg\Ranks\general_gs.paa'/&gt;&lt;/t&gt;&lt;br/&gt;&lt;t size='1.15' color='#ffa000'&gt;Odměna: 10 zpravodajských bodů (5 za každého člena posádky).&lt;/t&gt;&lt;br/&gt;&lt;br/&gt;&lt;t size='10'&gt;&lt;img image='res\secondary\fob_obj.jpg'/&gt;&lt;/t&gt;</Czech>
+        </Key>		
     </Package>
 </Project>

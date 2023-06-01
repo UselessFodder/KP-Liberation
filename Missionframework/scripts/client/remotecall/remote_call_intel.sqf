@@ -85,17 +85,28 @@ switch (_notiftype) do {
 	};
 	// rescue_civ mission
     case 12: {
-        {["lib_intel_prisoner"] call BIS_fnc_showNotification;};
-		//{["lib_intel_rescue_civ"] call BIS_fnc_showNotification;};
-    };	
+        waitUntil {!isNil "secondary_objective_position_marker"};
+        waitUntil {count secondary_objective_position_marker > 0};
+        waitUntil {secondary_objective_position_marker distance zeropos > 1000};
+        ["lib_intel_rescue", [markertext ([10000, secondary_objective_position_marker] call KPLIB_fnc_getNearestSector)]] call BIS_fnc_showNotification;
+        _secondary_marker = createMarkerLocal ["secondarymarker", secondary_objective_position_marker];
+        _secondary_marker setMarkerColorLocal GRLIB_color_enemy_bright;
+        _secondary_marker setMarkerTypeLocal "hd_unknown";
+
+        _secondary_marker_zone = createMarkerLocal ["secondarymarkerzone", secondary_objective_position_marker];
+        _secondary_marker_zone setMarkerColorLocal GRLIB_color_enemy_bright;
+        _secondary_marker_zone setMarkerShapeLocal "ELLIPSE";
+        _secondary_marker_zone setMarkerBrushLocal "FDiagonal";
+        _secondary_marker_zone setMarkerSizeLocal [1500,1500];
+    };
    case 13: {
-        ["lib_intel_sar_failed"] call BIS_fnc_showNotification;
+        ["lib_intel_rescue_failed"] call BIS_fnc_showNotification;
         deleteMarkerLocal "secondarymarker";
         deleteMarkerLocal "secondarymarkerzone";
         secondary_objective_position_marker = [];
     };
     case 14: {
-        ["lib_intel_sar_succeeded"] call BIS_fnc_showNotification;
+        ["lib_intel_rescue_succeed"] call BIS_fnc_showNotification;
         deleteMarkerLocal "secondarymarker";
         deleteMarkerLocal "secondarymarkerzone";
         secondary_objective_position_marker = [];

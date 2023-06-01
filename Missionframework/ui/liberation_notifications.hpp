@@ -128,6 +128,17 @@ class CfgNotifications {
         color[] = { 1, 0, 0, 1 };
         sound = "taskFailed";
     };
+    class lib_intel_rescue: lib_intel {
+        description = $STR_NOTIFICATION_RESCUE_STARTED;
+    };
+   class lib_intel_rescue_succeed: lib_intel {
+        description = $STR_NOTIFICATION_RESCUE_SUCCESS;
+    };	
+    class lib_intel_rescue_failed: lib_secondary_fob_destroyed {
+        description = $STR_NOTIFICATION_RESCUE_FAILED;
+        color[] = { 1, 0, 0, 1 };
+        sound = "taskFailed";
+    };	
 	class lib_secondary_civ_supplies_no_room: lib_secondary_fob_destroyed {
 		description = $STR_NOTIFICATION_CIV_SUPPLIES_NO_ROOM;
         color[] = { 1, 0, 0, 1 };

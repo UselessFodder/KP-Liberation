@@ -1,21 +1,19 @@
 
 private _spawn_marker = [ 2000, 999999, false ] call KPLIB_fnc_getOpforSpawnPoint;
-if ( _spawn_marker == "" ) exitWith {["Could not find position for search and rescue mission", "ERROR"] call KPLIB_fnc_log;};
+if ( _spawn_marker == "" ) exitWith {["Could not find position for civilian rescue mission", "ERROR"] call KPLIB_fnc_log;};
 used_positions pushbackUnique _spawn_marker;
 
 private _housepos = (markerPos _spawn_marker) getPos [random 200, random 360];
-_civhouse = "Land_i_House_Big_01_b_whiteblue_F" createVehicle [_housepos select 1, _housepos select 2, (_housepos select 3) + 1];
+private _civhouse = "Land_i_House_Big_01_b_whiteblue_F" createVehicle [_housepos select 1, _housepos select 2, (_housepos select 3) + 1];
 _civhouse allowDamage false;
 _civhouse setPos _housepos;
 _civhouse setPos _housepos;
 private _houseDir = (random 360);
 _civhouse setDir _houseDir;
 
-diag_log format ["Building name: %1",_civhouse];
-
 private _civsGrp = createGroup [GRLIB_side_enemy, true];
 _allPos = _civhouse buildingPos -1;
-diag_log format ["Building positions: %1",_allPos];
+//diag_log format ["Building positions: %1",_allPos];
 //private _civsPos = (getpos _civhouse) getPos [25, random 360];
 private _civsPos = selectRandom _allPos;
 
