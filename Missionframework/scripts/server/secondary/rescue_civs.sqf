@@ -4,12 +4,11 @@ if ( _spawn_marker == "" ) exitWith {["Could not find position for civilian resc
 used_positions pushbackUnique _spawn_marker;
 
 private _housepos = (markerPos _spawn_marker) getPos [random 200, random 360];
-private _civhouse = "Land_i_House_Big_01_b_whiteblue_F" createVehicle [_housepos select 1, _housepos select 2, (_housepos select 3) + 1];
+private _civhouse = "Land_i_House_Big_01_b_whiteblue_F" createVehicle [_housepos select 0, _housepos select 1, (_housepos select 2) + 1];
 _civhouse allowDamage false;
-_civhouse setPos _housepos;
-_civhouse setPos _housepos;
 private _houseDir = (random 360);
 _civhouse setDir _houseDir;
+//diag_log format ["Building object is %1",_civhouse];
 
 private _civsGrp = createGroup [GRLIB_side_enemy, true];
 _allPos = _civhouse buildingPos -1;
@@ -84,7 +83,7 @@ secondary_objective_position_marker = secondary_objective_position getPos [800, 
 publicVariable "secondary_objective_position_marker";
 sleep 1;
 GRLIB_secondary_in_progress = 4; publicVariable "GRLIB_secondary_in_progress";
-[6] remoteExec ["remote_call_intel"];
+[12] remoteExec ["remote_call_intel"];
 
 waitUntil {
     sleep 5;
@@ -95,9 +94,9 @@ sleep 5;
 
 private _alive_crew_count = { alive _x } count _civUnits;
 if ( _alive_crew_count == 0 ) then {
-    [7] remoteExec ["remote_call_intel"];
+    [13] remoteExec ["remote_call_intel"];
 } else {
-    [8] remoteExec ["remote_call_intel"];
+    [14] remoteExec ["remote_call_intel"];
     private _grp = createGroup [GRLIB_side_friendly, true];
     { [_x ] joinSilent _grp; } foreach _civUnits;
     while {(count (waypoints _grp)) != 0} do {deleteWaypoint ((waypoints _grp) select 0);};
